@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+}
+
+body {
+    background: #4b8f8c;
+    background-image: url("https://www.foregon.com/blog/wp-content/uploads/2020/03/como-a-queda-da-bolsa-de-valores-afeta-o-brasil.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+    margin: 0 auto;
+}
+
+header {
+    background: #693c72;
+    padding: 1em 1em;
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+    margin-top: 90px;
+    color: #e7e5e5;
+}
+
+header h1 {
+    font-size: 1.6em;
+}
+
+header, .container {
+    box-shadow: 4px 4px 6px #353535;
+    margin-left: auto;
+    margin-right: auto;
+    width: 380px;
+}
+
+.container{
+    background: #e7e5e5;
+    color: #000000;
+    padding: 1.5em 2em;
+    border-radius: 0 0 20px 20px;
+}
+
+.subtitle {
+    display: block;
+    margin-bottom: .5em;
+}
+
+.primaryinput {
+    border: 0px solid #4b8fbc;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 1em;
+    padding: 16px 10px;
+    width: 100%;
+}
+
+#buttonconvert {
+    background: #693c72;
+    border-style: none;
+    border-radius: 30px;
+    color: #e7e5e5;
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 1em;
+    padding: 1em;
+    width: 100%;
+}
+
+#result {
+    display: block;
+    text-align: center;
+}
+
+footer {
+    background: #191C1A;
+    bottom: 0;
+    display: inline-block;
+    left: 0;
+    padding: 1em 1em;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer p {
+    color: #BDBDBD;
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 5px;
+    vertical-align: top;
+    font-size: .9em;
+}
+
+footer span {
+    color: red;
+}
+
+footer img {
+    height: 26px;
+}
